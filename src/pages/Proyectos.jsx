@@ -1,9 +1,10 @@
 import React from 'react'
-
+import { Proyect } from "../components/Proyect";
+import "../css/Proyect.css";
 export function Proyectos() {
   return (
     <div>
-      aqui van los proyectos
+      <Proyect></Proyect>
     </div>
   )
 }

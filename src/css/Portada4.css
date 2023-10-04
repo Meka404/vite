@@ -3,14 +3,14 @@ body {
   margin: 0;
   padding: 0;
   
-  overflow: hidden; 
+  /*overflow: hidden; */
 }
 
 .grupo{
     padding-top: 0px;
     padding-bottom: 0px;
     margin-bottom: 0%;
-    
+    overflow: hidden;
     width: 100%;
     height: 60dvh;
     margin-top: 0%;
@@ -60,7 +60,7 @@ body {
     font-size: 15px;
   }
   .grupo .links{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
   .grupo .card::before {
     content: "";

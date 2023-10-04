@@ -29,7 +29,7 @@ export function Navigation() {
             </div>
           </div>
           <div className="social-media">
-            <a href="https://www.facebook.com/example">
+            <a href="https://www.facebook.com/Dnc.construcciones/">
               <FaFacebook className="icon" />
             </a>
           </div>

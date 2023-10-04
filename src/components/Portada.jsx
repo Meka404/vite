@@ -39,7 +39,7 @@ export const Portada = () => {
         <Card.Title>TOPOGRAFIA</Card.Title>
      
         <Card.Text>
-        ofrecemos servicios de topografía de alta precisión para respaldar sus proyectos de infraestructura y construcción. Nuestro equipo de topógrafos altamente capacitados utiliza las últimas tecnologías y equipos de medición para proporcionar datos detallados y confiables.
+        Ofrecemos servicios de topografía de alta precisión para respaldar sus proyectos de infraestructura y construcción. Nuestro equipo de topógrafos altamente capacitados utiliza las últimas tecnologías y equipos de medición para proporcionar datos detallados y confiables.
         </Card.Text>
         <Card.Link className=" links" href="/topografia">Leer mas</Card.Link>
        

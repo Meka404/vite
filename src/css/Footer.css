@@ -1,0 +1,149 @@
+.footer {
+    
+    color: #fff;
+    padding: 20px 0;
+    
+    opacity: 0.99;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));*/
+  
+    background-color: #282c34;
+    /*background-image: url('./assets/fondo-negro2.jpg');*/
+    z-index: 1;
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .container{
+    height: 70px;
+  }
+  
+  .footer h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .footer h4{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+   
+    text-align: center;
+  }
+  
+  .footer h5{
+    color: white;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    
+  }
+  
+  
+  .footer p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    text-align: justify ;
+  }
+  
+  .footer ul li {
+    list-style: none;
+    padding: 2px 0;
+  }
+  
+  .footer ul li a {
+    color: #bbb;
+    transition: color 0.3s;
+  }
+  
+  .footer ul li a:hover {
+    color: #fff;
+  }
+  
+  .company-name {
+    font-size: 14px;
+    color: #bbb;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .social-links a {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 12px;
+   
+  }
+  
+  .social-links a:hover {
+    color: #bbb;
+   
+  }
+  .social-links{
+    text-align: center;
+  }
+  
+
+
+
+
+
+  @media (max-width: 767px) {
+  
+    .footer h3 {
+      color: #fff;
+      font-size: 15px;
+   
+      margin-bottom: 16px;
+      text-align: center;
+    }
+    .footer h4{
+      color: white;
+      font-size: 15px;
+      
+      margin-bottom: 16px;
+      text-align: center;
+    }
+    
+    .footer h5{
+      color: white;
+      font-size: 13px;
+     
+      text-align: center;
+      
+    }
+    
+    
+    .footer p {
+      font-size: 14px;
+      line-height: 24px;
+      margin-bottom: 16px;
+      text-align: justify ;
+    }
+    .footer h5{
+      color: white;
+      font-size: 10px;
+      font-weight: 500;
+      text-align: center;
+      
+    }
+    
+    
+    .footer p {
+      font-size: 10px;
+      line-height: 24px;
+      margin-bottom: 16px;
+      text-align: justify ;
+    }
+  
+  
+  
+  
+  }

@@ -1,10 +1,11 @@
 import React from 'react'
-
+import "../css/Footer.css";
+import { Footer } from "../components/Footer";
 export function Ubicanos() {
   return (
-    <div>
-      ubicate si
-    </div>
+   <footer>
+      <Footer></Footer>
+      </footer>
   )
 }
 
