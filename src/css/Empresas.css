@@ -8,4 +8,35 @@
 .empresas{
     padding-top: 80px;
     padding-bottom: 100px;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 0%;
+    position: relative;
 }
+.empresas h1{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+}
+.empresas h2{
+    color: black;
+    font-size: 120%;
+    padding-bottom: 4%;
+}
+  
+  .empresas::before {
+    content: "";
+    /*background-attachment: local; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    
+    background-image: url('../assets/topografia-geodesia-dnc.jpg'); 
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    z-index: -1;
+    background-attachment: fixed;
+
+  }

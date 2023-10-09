@@ -1,43 +1,32 @@
 // import Container from "react-bootstrap/esm/Container"
 import { Container, Row, Col } from "react-bootstrap";
 import "animate.css";
-import logo1 from "../assets/fondo_portada.jpg";
+import logo1 from "../assets/fondo21.jpg";
 
-import React from 'react';
-
+import React from "react";
 
 export const Us = () => {
   return (
     <div className="nosotros">
- 
-        <Row>
-          <Col md={6} className="order-md-1">
-            <div className="column" id="nosotros">
-              <h3>DNC Construcciones</h3>
-              <p> 
-                Empresa comprometida con el desarrollo ético y sostenible de su 
-                actividad principal: consultoría y construcción, su alto nivel técnico
-                de sus profesionales debidamente capacitados y en continua
-                preparación, se reflejan en el desarrollo de sus múltiples servicios,
-                tales como; manejo integral de la redes de alcantarillado y agua
-                potable, saneamiento ambiental, topografía y geodesia, geotecnia en
-                diseño de cimentaciones y vías de transporte, ingeniería de
-                pavimentos, supervisión de obras, diseño y ejecución de obras públicas
-                y privadas, etc. Junto al equipo y maquinaria del que dispone, ser
-                parte del desarrollo de sistemas que permitan facilitar la operación y
-                ejecución de obras así su administración y mantenimiento. El ámbito
-                inicial de sus operaciones se va a concentrar en la contratación y
-                ejecución de obras públicas y privadas a nivel nacional.
-              </p>
-            </div>
-          </Col>
-          <Col md={6} className="order-md-2">
-            <div className="column">
-              <img src={logo1} alt="Imagen de la segunda fila" />
-            </div>
-          </Col>
-        </Row>
-      
+      <Row>
+        <Col md={6} className="order-md-1">
+          <div className="column" id="nosotros">
+            <h3 id="dnc">Que puede hacer DNC por ti</h3>
+            <p>
+            Con años de experiencia en el campo, nuestro equipo de expertos en mantenimiento de alcantarillados garantiza soluciones confiables y de alta calidad.
+           
+            Utilizamos tecnología de vanguardia, como inspecciones televisivas, para identificar problemas de manera temprana, evitando costosas reparaciones futuras.
+           
+            Ofrecemos programas de mantenimiento preventivo personalizados para garantizar un rendimiento óptimo de sus sistemas de alcantarillado y prevenir obstrucciones.
+            </p>
+          </div>
+        </Col>
+        <Col md={6} className="order-md-2">
+          <div className="column">
+            <img src={logo1} alt="Imagen de la segunda fila" />
+          </div>
+        </Col>
+      </Row>
     </div>
   );
 };

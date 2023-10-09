@@ -1,0 +1,46 @@
+.card-group {
+    display: flex;
+    justify-content: space-between; /* Espaciado uniforme entre las tarjetas */
+
+  }
+  
+  .card {
+    width: 200px;
+    border: 1px solid #ccc;
+    transition: transform 0.4s;
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+  
+  .card:hover {
+    transform: translateY(-15px);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .card-titlem {
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    color:  #006489;
+  }
+  
+  .card-description {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+  }
+  .eligen{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2%;
+    color:  #006489;
+  }

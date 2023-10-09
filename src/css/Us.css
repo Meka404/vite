@@ -1,17 +1,20 @@
 .nosotros {
     /*background: #f1f1f1;*/
     /*background-color: white;*/
-    background: rgb(31, 111, 187);    
+    
     margin-top: 5%;
+    margin-bottom: 80px;
+    text-align: center;
   }
   
   .column {
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 50px;
+    padding-top: 40px;
     /*animation: zoomOutRight;*/ /*animacion*/
     animation-duration: 3s; 
     color: black;
+    text-align: center;
   
   
   
@@ -22,8 +25,9 @@
 
     /*background: #f1f1f1;*/
     background-color: white;
-    text-align: justify;
-    background: rgb(31, 111, 187);
+    text-align: center;
+    padding-top: 20px;
+   
   }
   
   .column img {
@@ -43,28 +47,16 @@
   
   
   .column h3{
-    padding-top: 10%;
+    padding-top: 8%;
     text-align: center;
     font-size: 45px;
     font-weight: 700;
   }
   .column p{
-    padding-top: 10%;
+    padding-top: 5%;
   }
   
-  .nosotros h3:before,.nosotros h3:after {
-    
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  .nosotros h3:before,.nosotros h3:after{
-    content: "";
-    width: 50px;
-    height: 4px;
-    background: rgb(30, 37, 131);
-    display: inline-block;
-    
-  }
+
   
   
   
@@ -88,21 +80,7 @@
       padding-top: 10%;
       font-size: 10px;
     }
-  
-    .nosotros h3:before,.nosotros h3:after {
-      margin-top: 10px;
-      margin-bottom: 3px
-      
-    }
-    .nosotros h3:before,.nosotros h3:after{
-      content: "";
-      width: 20px;
-      height: 4px;
-    
-      background: rgb(30, 37, 131);
-      display: inline-block;
-      
-    }
+ 
     .column img {
       max-width: 100%;
       width: 100%;

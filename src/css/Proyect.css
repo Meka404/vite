@@ -1,126 +1,37 @@
-.proyectos {
-    /* Estilos del contenedor de proyectos */
-    color: #f1f1f1;
-    padding-bottom: 300px;
-    padding-top: 5%;
-  }  
-  .proyect{
-    background: white;
-    width: 100%;
-    height: 100%;
-  }
-  .proyectos img{
-    clip-path: circle(50%);
-    width: 400px;
-    height: 400px;
-  }
-  .filter-buttons {
-    margin-bottom: 20px;
- 
-
-  }
-  
-  .filter-buttons button {
-    margin-right: 10px;
-    padding: 6px 10px;
-    background-color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 64px;
-  }
-  
-  .filter-buttons button.active {
-    background-color:rgb(30, 37, 131);
-    color: white;
-  }
-  .proyectos p{
-    color: black;
-
-  }
-
-
-  .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 100px;
-  }
-  
-  .project-item {
-    text-align: center;
-  }
-  
-
-
-  .proyectos h2{
-    color: black;
-    font-size: 45px;
-    font-weight: 700;
-  }
-
-
-
-
-  .proyectos h2:before,.proyectos h2:after {
-    margin: 0 15px 10px 10px;
+.cardp-grid {
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Divide en 3 columnas */
+  grid-gap: 20px; /* Espacio entre tarjetas */
+  margin-bottom: 5%;
 }
-  .proyectos h2:before,.proyectos h2:after{
-    content: "";
-    width: 50px;
-    height: 4px;
-    background: rgb(30, 37, 131);
-    display: inline-block;
-  }
+
+.cardp {
+  background-color: #f3ebeb;
+ /* background: linear-gradient(to right,  #006489, #5aa0b9);
+*/
+  margin-left: 10%;
+  margin-right: 10%;
+
+  border-radius: 5px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out; /* Transición de movimiento */
+  border: 1px solid #ccc;
+ 
+}
 
 
-
-
-  @media (max-width: 767px) {
-    .proyectos {
-      /* Estilos del contenedor de proyectos */
-      color: #f1f1f1;
-      padding-bottom: 10px;
-      padding-top: 10px;
-    }  
-
-
-    .proyectos h2{
-      color: black;
-      font-size: 15px;
-      font-weight: 700;
-    }
-    .proyectos h2:before,.proyectos h2:after {
-      margin-top: 10px;
-      margin-bottom: 3px
-  }
-    .proyectos h2:before,.proyectos h2:after{
-      content: "";
-    width: 20px;
-    height: 4px;
-  background: rgb(30, 37, 131);
-  display: inline-block;
-    }
-
-
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 10px;
-    }
-    .proyectos img{
-      clip-path: circle(50%);
-      width: 200px;
-      height: 200px;
-    }
-    .proyectos p{
-      color: black;
-      font-size: 10px;
+.cardp img{
+ 
+    width: 100%; /* Establece el ancho al 100% del contenedor */
+    height: auto; /* Establece la altura automática para mantener la proporción */
+    max-width: 300px; /* Establece un ancho máximo para evitar que las imágenes sean demasiado grandes */
+    max-height: 200px; 
   
-    }
-    .proyect{
-      background: white;
-      width: 100%;
-      height: 100%;
-      padding-top: 10px;
-    }
-
-  }
+}
+.cardp  p {
+  margin-top: 10px;
+}
+.cardp:hover {
+  transform: translateY(-5px); /* Mover hacia arriba al pasar el cursor */
+}
