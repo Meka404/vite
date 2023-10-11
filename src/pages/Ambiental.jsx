@@ -1,9 +1,11 @@
 import React from 'react'
-
+import { Ambiental1 } from "../components/Ambiental1";
+import { Footer } from "../components/Footer";
 export function Ambiental() {
   return (
     <div>
-      Pagina ambiental
+      <Ambiental1></Ambiental1>
+      <Footer></Footer>
     </div>
   )
 }

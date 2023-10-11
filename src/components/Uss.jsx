@@ -44,7 +44,7 @@ export const Uss = () => {
             <em>
               En DNC CONSTRUCCIONES buscamos soluciones innovadoras para el
               mantenimiento y rehabilitación de las redes de saneamiento. En
-              este sentido, cabe decir que, durante estos años, Hidrotec ha
+              este sentido, cabe decir que, durante estos años, DNC ha
               introducido nuevas tecnologías en el mercado, como el robot
               fresador, el perfilador láser y diversos sistemas de
               rehabilitación de canalizaciones que evitan la realización de

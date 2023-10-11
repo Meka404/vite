@@ -1,5 +1,5 @@
 #innovacion{
-    color: black;
+    color: white;
     font-weight: normal;
     font-size: 120%;
 }
@@ -11,6 +11,7 @@
     padding-right: 16%;
    
     margin-top: 50px;
+    padding-bottom: 8%;
     
   }
   .sanitaria {
@@ -56,6 +57,7 @@
     margin-right: 0;
     width: 300px;
     /*transition: all 0.3s;*/
+    
   }
 
 
@@ -74,6 +76,7 @@
     
     border-top-left-radius: 30px; /* Borde redondeado superior izquierdo */
     border-bottom-left-radius: 30px; /* Borde redondeado inferior izquierdo */
+    
   }
 
 
@@ -81,11 +84,13 @@
    
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+    
   }
 
 
   .sanitaria h3:before,.sanitaria h3:after {
     margin: 0 15px 10px 10px;
+   
 }
   .sanitaria h3:before,.sanitaria h3:after{
     content: "";

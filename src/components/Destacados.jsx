@@ -15,7 +15,7 @@ export function Destacados() {
             />
             <div className="card-content">
               <h3 className="card-titlem">INSPECCION TELEVISIVA</h3>
-              <p className="card-description">En DNC contamos con 10 cámaras de TV para la inspección de todo tipo de canalizaciones, ya sean redes de alcantarillado , redes de agua potable, redes contra incendios o bajantes de edificios, a partir de 2 cm hasta 2,5 m de diámetro, destacando 3 equipos preparados para trabajar en zonas industriales. Cabe decir que DNC realiza las inspecciones de las tuberías de desagüe y sistemas de alcantarillado según norma ·###############.</p>
+              <p className="card-description">En DNC contamos con 10 cámaras de TV para la inspección de todo tipo de canalizaciones, ya sean redes de alcantarillado , redes de agua potable, redes contra incendios o bajantes de edificios, a partir de 2 cm hasta 2,5 m de diámetro, destacando 3 equipos preparados para trabajar en zonas industriales.</p>
             </div>
           </div>
     
@@ -26,8 +26,8 @@ export function Destacados() {
               className="card-image"
             />
             <div className="card-content">
-              <h3 className="card-titlem">Tarjeta 2</h3>
-              <p className="card-description">Descripción de la tarjeta 2</p>
+              <h3 className="card-titlem">SANEAMIENTO AMBIENTAL</h3>
+              <p className="card-description">Trabajamos incansablemente para preservar la salud de nuestros ecosistemas y comunidades. Desde la gestión de residuos hasta la prevención de la contaminación</p>
             </div>
           </div>
     
@@ -38,7 +38,7 @@ export function Destacados() {
               className="card-image"
             />
             <div className="card-content">
-              <h3 className="card-titlem">Tarjeta 3</h3>
+              <h3 className="card-titlem">Topografia Ambiental</h3>
               <p className="card-description">Descripción de la tarjeta 3</p>
             </div>
           </div>
