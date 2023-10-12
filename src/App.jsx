@@ -14,7 +14,7 @@ import React from 'react'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Navigation></Navigation>
     <Navigation2></Navigation2>
       <Routes>
