@@ -62,7 +62,7 @@ export function Ambiental1() {
             <li>Eliminación de basura</li>
             <h2>Este punto permite manejar de forma adecuada la generación y eliminación de basura doméstica e industrial, ya que los residuos son el arma potencial para producir infecciones y riesgos a la salud.</h2>
             <li>Regulación de emisiones atmosféricas</li>
-            <h2>Son políticas acordadas por el gobierno para que se implementen en los negocios, además de utilizar productos de limpieza o desinfección con poca cantidad de contaminantes para poder cuidar la calidad del aire y el suelo.</h2>
+            <h2>Son políticas acordadas por el gobierno para que se implementen en los negocios, además de utilizar productos de limpieza o desinfección con poca cantidad de contaminantes para poder cuidar la calidad del suelo.</h2>
           </ul>
         </div>
         <div className="image-ambiental">
