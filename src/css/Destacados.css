@@ -10,6 +10,7 @@
     transition: transform 0.4s;
     margin-right: 4%;
     margin-left: 4%;
+    height: 400px;
   }
   
   .card:hover {
@@ -18,7 +19,7 @@
   
   .card-image {
     width: 100%;
-    height: auto;
+    height: 60%;
   }
   
   .card-content {
@@ -43,4 +44,7 @@
     text-align: center;
     padding-bottom: 2%;
     color:  #006489;
+  }
+  a {
+    text-decoration: none;
   }

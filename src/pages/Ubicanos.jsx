@@ -1,17 +1,16 @@
-import React from 'react'
+import React from "react";
 import "../css/Footer.css";
 import { Footer } from "../components/Footer";
-import { Empresas } from "../components/Empresas";
-import "../css/Empresas.css"
+import { Direccion1 } from "../components/Direccion1";
+import {Mapa} from "../components/Mapa";
+import "../css/Empresas.css";
 export function Ubicanos() {
   return (
-  <div>
+    <div>
    
-     <Footer></Footer>
-  </div>
-     
-      
-  )
+      <Direccion1></Direccion1>
+
+      <Footer></Footer>
+    </div>
+  );
 }
-
-

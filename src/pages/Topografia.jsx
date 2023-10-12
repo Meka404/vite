@@ -1,9 +1,12 @@
 import React from 'react'
-
+import "../css/Topografia1.css"
+import { Topografia1 } from "../components/Topografia1";
+import { Footer } from "../components/Footer";
 export function Topografia() {
   return (
     <div>
-      pagina topografia
+     <Topografia1></Topografia1>
+     <Footer></Footer>
     </div>
   )
 }

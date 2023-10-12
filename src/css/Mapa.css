@@ -1,0 +1,7 @@
+.custom-infowindow {
+    background-color: #FF5733; /* Cambia el color de fondo a tu elección */
+    color: #FFFFFF; /* Cambia el color del texto a tu elección */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(161, 90, 19, 0.3);
+  }
