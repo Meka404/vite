@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 import { Balde } from "./pages/Balde";
 import { Tele } from "./pages/Tele";
 import { Principal } from "./pages/Principal";
@@ -20,7 +20,7 @@ function App() {
       <Routes>
         <Route path="/balde" element={<Balde/>}/>
         <Route path="/tele" element={<Tele/>}/>
-        <Route path="/" element={<Principal/>}/>
+        <Route path="/" element={<Navigate to="/tele"/>}/>
         <Route path="/ambiental" element={<Ambiental/>}/>
         <Route path="/topografia" element={<Topografia/>}/>
         <Route path="/ubicanos" element={<Ubicanos/>}/>
